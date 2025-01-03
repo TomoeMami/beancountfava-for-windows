@@ -1,6 +1,6 @@
 # Beancount + Fava for Windows
 
-[![Build](https://github.com/milang/beancountfava-for-windows/actions/workflows/build.yml/badge.svg)](https://github.com/milang/beancountfava-for-windows/actions/workflows/build.yml)
+[![Build](https://github.com/TomoeMami/beancountfava-for-windows/actions/workflows/build.yml/badge.svg)](https://github.com/TomoeMami/beancountfava-for-windows/actions/workflows/build.yml)
 
 This repository contains GitHub Actions workflow that builds
 the latest [Beancount](https://beancount.github.io/) and
