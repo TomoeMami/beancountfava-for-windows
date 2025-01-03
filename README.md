@@ -22,6 +22,8 @@ C:\Users\Public\bin\fava
 The latest release is currently [Beancount 3.0.0](https://github.com/beancount/beancount/releases/tag/3.0.0)
 and [Fava 1.30](https://github.com/beancount/fava/releases/tag/v1.30).
 
+**[中文使用说明](https://github.com/TomoeMami/beancountfava-for-windows/blob/master/README_CN.md)**
+
 # Installing the Compressed Package to the System
 
 1. Download the `fava.zip` file packaged by GitHub Actions from either the [Release page](https://github.com/TomoeMami/beancountfava-for-windows/releases) or the [Artifacts page](https://github.com/TomoeMami/beancountfava-for-windows/actions).  
