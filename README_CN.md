@@ -2,6 +2,9 @@
 
 Beancount在Windows上安装，一直有一个绕不过去的[编译问题](https://beancount.github.io/docs/installing_beancount.html#install-compiler)，官方推荐的几种方式（MSVC编译器、WSL、Cygwin）都对非电脑专业用户很不友好（程序员也会被绕一下）。  
 
+
+
+> [!IMPORTANT]
 > [2025-01-06 周一 09:26] 更新：经测试，可以直接在Windows上通过pip安装fava和beancount，但是需要在[beancount的pypi文件界面](https://pypi.org/project/beancount/#files)查看发布的文件，注意「cp3xx」版本。
 > 
 > 如果你安装了最新的Python（此时为Python 3.13），则会发现用pip安装beancount时需要编译。
