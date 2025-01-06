@@ -24,6 +24,14 @@ and [Fava 1.30](https://github.com/beancount/fava/releases/tag/v1.30).
 
 **[中文使用说明](https://github.com/TomoeMami/beancountfava-for-windows/blob/master/README_CN.md)**
 
+> [!IMPORTANT]
+> [2025-01-06 Monday 09:26] Update: After testing, it is possible to install fava and beancount directly on Windows via pip. However, you need to check the released files on the [beancount PyPI page](https://pypi.org/project/beancount/#files) and pay attention to the "cp3xx" version.
+> 
+> If you have installed the latest version of Python (currently Python 3.13), you will notice that compiling is required when installing beancount via pip.
+> 
+> The whl files included in the beancount 3.0.0 release on June 17, 2024, are precompiled up to cp312 (Python 3.12). For newer Python versions, you will need to install compilers like MSVC. If there are no specific version requirements, it is recommended to downgrade to Python 3.12, which can be installed directly from the Microsoft Store.
+> 
+> The following content is no longer necessary. If there are users who are unfamiliar with installing Python, they can continue to refer to and use it.
 # Installing the Compressed Package to the System
 
 1. Download the `fava.zip` file packaged by GitHub Actions from either the [Release page](https://github.com/TomoeMami/beancountfava-for-windows/releases) or the [Artifacts page](https://github.com/TomoeMami/beancountfava-for-windows/actions).  
