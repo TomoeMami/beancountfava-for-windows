@@ -2,13 +2,13 @@
 
 Beancount在Windows上安装，一直有一个绕不过去的[编译问题](https://beancount.github.io/docs/installing_beancount.html#install-compiler)，官方推荐的几种方式（MSVC编译器、WSL、Cygwin）都对非电脑专业用户很不友好（程序员也会被绕一下）。  
 
-[2025-01-06 周一 09:26] 更新：经测试，可以直接在Windows上通过pip安装fava和beancount，但是需要在[[https://pypi.org/project/beancount/#files][beancount的pypi界面]]查看发布的文件，注意「cp3xx」版本。
-
-如果你安装了最新的Python（此时为Python 3.13），则会发现用pip安装beancount时需要编译。
-
-2024年6月17日发布的beancount 3.0.0附带的whl文件最高由cp312（Python3.12）预编译而来，更新的Python版本需要安装MSVC等编译器。如果没有特殊版本需求，建议降级到3.12，直接在Microsoft Store中安装3.12即可。
-
-后续内容不再需要。如果有不懂安装Python的用户，也可以继续查看并使用。
+> [2025-01-06 周一 09:26] 更新：经测试，可以直接在Windows上通过pip安装fava和beancount，但是需要在[beancount的pypi文件界面](https://pypi.org/project/beancount/#files)查看发布的文件，注意「cp3xx」版本。
+> 
+> 如果你安装了最新的Python（此时为Python 3.13），则会发现用pip安装beancount时需要编译。
+> 
+> 2024年6月17日发布的beancount 3.0.0附带的whl文件最高由cp312（Python3.12）预编译而来，更新的Python版本需要安装MSVC等编译器。如果没有特殊版本需求，建议降级到3.12，直接在Microsoft Store中安装3.12即可。
+> 
+> 后续内容不再需要。如果有不懂安装Python的用户，也可以继续查看并使用。
 
 幸好，我发现GitHub上早有人创建了Beancount+Fava的可执行打包exe脚本，但是疏于更新，上次发布已是三年前了。我fork了这个repo，并把打包的Beancount和Fava更新到了最新版本（Beancount 3.0.0 + Fava 1.30）。先将使用流程记录于下。  
 
